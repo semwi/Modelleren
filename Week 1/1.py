@@ -10,3 +10,5 @@ x = np.linspace(0, 25, 26)
 lijst_even = (x[x%2==0])
 
 lijst_tot_drie = np.linspace(1,3,10)
+
+print(lijst_even)
