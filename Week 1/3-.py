@@ -43,6 +43,8 @@ v = offset+t*(helling+random()/10) + random(t)/2
 v_err = random(a=min(v),b=max(v)),t/5
 
 ## Hier komt de rest van je code 
+v_2 = v(t)
 
-plt.plot(v(t),t)
+plt.plot(v,t, color="red")
+plt.subplot(v_2, t)
 plt.show()
